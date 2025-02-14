@@ -84,7 +84,7 @@ const typeWriter = (element, text, i = 0) => {
             element.style.opacity = 0; // Desaparecer
             setTimeout(() => {
                 element.style.opacity = 1; // Reaparecer
-            }, 25000); // Tiempo entre desaparecer y reaparecer
+            }, 35000); // Tiempo entre desaparecer y reaparecer
         });
     };
 
@@ -99,5 +99,5 @@ const typeWriter = (element, text, i = 0) => {
 
         // Desaparecer y reaparecer algunas fotos
         fadeInOutRandom(photos);
-    }, 8000); // Cada 10 segundos
+    }, 5000); // Cada 10 segundos
 });
