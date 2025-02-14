@@ -84,7 +84,7 @@ const typeWriter = (element, text, i = 0) => {
             element.style.opacity = 0; // Desaparecer
             setTimeout(() => {
                 element.style.opacity = 1; // Reaparecer
-            }, 15000); // Tiempo entre desaparecer y reaparecer
+            }, 17000); // Tiempo entre desaparecer y reaparecer
         });
     };
 
