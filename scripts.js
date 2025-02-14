@@ -99,5 +99,5 @@ const typeWriter = (element, text, i = 0) => {
 
         // Desaparecer y reaparecer algunas fotos
         fadeInOutRandom(photos);
-    }, 20000); // Cada 10 segundos
+    }, 15000); // Cada 10 segundos
 });
